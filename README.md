@@ -6,11 +6,16 @@
 [![Video](https://img.youtube.com/vi/JAAYGelZeOY/0.jpg)](https://www.youtube.com/watch?v=JAAYGelZeOY)  
 [Ver demo](https://www.youtube.com/watch?v=JAAYGelZeOY)
 
-- Clona este repositorio en tu máquina local utilizando el comando git clone [URL_del_repositorio].
-- Abre el archivo index.html en tu navegador web preferido.
+## 🚀 Quick Start
 
+1. **Clonar este repositorio**
+```bash
+git clone https://github.com/phpeitor/valentines-day.git
+cd valentines-day
 ```
-    .\index.html
+2. **Ejecutar comando**
+```bash
+index.html
 ```
 
 *If you're interested in knowing the powerlevel configuration to get this prompt, have a look at [this gist](https://github.com/phpeitor/).*
