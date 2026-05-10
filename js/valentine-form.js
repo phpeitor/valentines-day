@@ -9,12 +9,14 @@ const showName = (name) => {
   nameOutput.textContent = name;
 };
 
+const removeSpaces = (value) => value.replace(/\s+/g, '');
+
 const params = new URLSearchParams(window.location.search);
 const encodedName = params.get('nombre');
 
 if (encodedName) {
   try {
-    const decodedName = decodeName(encodedName);
+    const decodedName = removeSpaces(decodeName(encodedName));
     nameInput.value = decodedName;
     showName(decodedName);
   } catch (error) {
@@ -26,7 +28,8 @@ if (encodedName) {
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
-  const name = nameInput.value.trim();
+  const name = removeSpaces(nameInput.value);
+  nameInput.value = name;
 
   if (!name) {
     return;
@@ -35,4 +38,14 @@ form.addEventListener('submit', (event) => {
   params.set('nombre', encodeName(name));
   window.history.pushState(null, '', `${window.location.pathname}?${params}`);
   showName(name);
+});
+
+nameInput.addEventListener('input', () => {
+  nameInput.value = removeSpaces(nameInput.value);
+});
+
+nameInput.addEventListener('keydown', (event) => {
+  if (event.key === ' ') {
+    event.preventDefault();
+  }
 });
