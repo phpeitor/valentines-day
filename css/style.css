@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 body {
+  background-color: #270f34;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #270f34;
   overflow: hidden;
   position: relative;
   flex-direction: column;
+}
+
+body::before {
+  background:
+    radial-gradient(circle at 16% 22%, rgba(81, 234, 234, 0.28), transparent 24%),
+    radial-gradient(circle at 82% 18%, rgba(251, 53, 105, 0.24), transparent 22%),
+    radial-gradient(circle at 46% 84%, rgba(255, 157, 118, 0.2), transparent 24%),
+    #270f34;
+  content: '';
+  inset: 0;
+  position: fixed;
+  z-index: 0;
 }
 
 .valentine {
@@ -164,4 +176,6 @@ body {
 
 css-doodle {
   display: block;
+  position: relative;
+  z-index: 1;
 }
