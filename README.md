@@ -1,10 +1,10 @@
-# ✨ Valentine’s Day ✨
+# Valentine’s Day ✨
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
 
 [![Video](https://img.youtube.com/vi/JAAYGelZeOY/0.jpg)](https://www.youtube.com/watch?v=JAAYGelZeOY)  
-[Ver demo](https://www.youtube.com/watch?v=JAAYGelZeOY)
+[![Video Demo](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=JAAYGelZeOY)
 
 ## 🚀 Quick Start
 
