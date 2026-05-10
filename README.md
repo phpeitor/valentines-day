@@ -1,6 +1,12 @@
-# Valentine's Day
+# ✨ Valentine’s Day ✨
 
-Pagina web interactiva para crear una dedicatoria de San Valentin con fondo animado, nombre personalizado y selector de efectos visuales.
+[![forthebadge](http://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.linkedin.com/in/drphp/)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/drphp/)
+
+[![Video](https://img.youtube.com/vi/JAAYGelZeOY/0.jpg)](https://www.youtube.com/watch?v=JAAYGelZeOY)  
+[Ver demo](https://www.youtube.com/watch?v=JAAYGelZeOY)
+
+## 🚀 Quick Start
 
 ## Caracteristicas
 
