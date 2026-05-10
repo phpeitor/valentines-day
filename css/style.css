@@ -32,6 +32,60 @@ body {
   bottom: 44%;
 }
 
+.valentine-name {
+  position: absolute;
+  bottom: 38%;
+  color: #fffde1;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  min-height: 2.5rem;
+  text-shadow: 2px 2px 10px rgba(255, 157, 118, 0.8);
+  z-index: 2;
+}
+
+.valentine-form {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 2;
+}
+
+.valentine-input,
+.valentine-button {
+  border: 0;
+  border-radius: 999px;
+  font: inherit;
+  padding: 0.75rem 1rem;
+}
+
+.valentine-input {
+  background: rgba(255, 253, 225, 0.9);
+  color: #270f34;
+  outline: none;
+}
+
+.valentine-button {
+  background: #FB3569;
+  color: #fffde1;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media (max-width: 520px) {
+  .valentine-form {
+    align-items: center;
+    flex-direction: column;
+    width: min(85vw, 20rem);
+  }
+
+  .valentine-input,
+  .valentine-button {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
 css-doodle {
   display: block;
 }
