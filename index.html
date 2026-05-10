@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
   <div class="valentine">😍❤️</div>
   <div class="valentine-script">My Valentine</div>
   <div class="valentine-name" id="valentine-name"></div>
@@ -21,11 +20,18 @@
     <button class="valentine-button" type="submit">Enviar</button>
   </form>
 
+  <div class="background-widget" aria-label="Seleccionar efecto de fondo">
+    <button class="background-option is-active" type="button" data-background="hearts" aria-pressed="true">Hearts</button>
+    <button class="background-option" type="button" data-background="sparkles" aria-pressed="false">Sparkles</button>
+    <button class="background-option" type="button" data-background="bubbles" aria-pressed="false">Bubbles</button>
+  </div>
+
   <css-doodle id="valentine-doodle"></css-doodle>
 
   <script src='./js/script.js'></script>
   <script src='./js/doodle.js'></script>
   <script src='./js/valentine-form.js'></script>
+  <script src='./js/background-options.js'></script>
 </body>
 
 </html>
