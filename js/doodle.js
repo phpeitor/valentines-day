@@ -48,7 +48,7 @@ const valentineDoodles = {
   sparkles: `
     --color: #fffde1, #51eaea, #FB3569, #ff9d76;
 
-    @grid: 42x1 / 100vw 100vh / #160828;
+    @grid: 42x1 / 100vw 100vh / #270f34;
 
     :container {
       perspective: 42vmin;
@@ -91,7 +91,7 @@ const valentineDoodles = {
   bubbles: `
     --color: rgba(255, 253, 225, 0.9), rgba(81, 234, 234, 0.75), rgba(251, 53, 105, 0.65);
 
-    @grid: 36x1 / 100vw 100vh / linear-gradient(180deg, #270f34, #12061e);
+    @grid: 36x1 / 100vw 100vh / #270f34;
 
     @place: @r(100%) 110%;
     @size: @r(14px, 58px);
